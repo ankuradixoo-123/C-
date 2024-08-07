@@ -30,13 +30,13 @@ public class Solution
     }
 }
 
-// Example usage
+
 public class Program
 {
     public static void Main()
     {
         Solution solution = new Solution();
-        int n = 19; // Example input
+        int n = 19; 
         bool result = solution.IsHappy(n);
         Console.WriteLine($"Is {n} a happy number? {result}");
     }

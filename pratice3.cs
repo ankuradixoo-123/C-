@@ -4,7 +4,7 @@ class Program
 {
     static void Main()
     {
-        // Display the calculator menu
+        
         Console.WriteLine("Basic Calculator");
         Console.WriteLine("Choose an operation:");
         Console.WriteLine("1. Addition");
@@ -13,16 +13,16 @@ class Program
         Console.WriteLine("4. Division");
         Console.Write("Enter your choice (1/2/3/4): ");
         
-        // Read user choice
+        
         int choice = Convert.ToInt32(Console.ReadLine());
         
-        // Get input numbers
+        
         Console.Write("Enter the first number: ");
         double num1 = Convert.ToDouble(Console.ReadLine());
         Console.Write("Enter the second number: ");
         double num2 = Convert.ToDouble(Console.ReadLine());
         
-        // Perform the chosen operation
+        
         double result = 0;
         switch (choice)
         {
@@ -54,7 +54,7 @@ class Program
                 break;
         }
         
-        // Wait for user input before closing
+    
         Console.WriteLine("Press any key to exit.");
         Console.ReadKey();
     }

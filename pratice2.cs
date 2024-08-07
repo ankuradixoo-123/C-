@@ -11,13 +11,13 @@ public class Solution
     }
 }
 
-// Example usage
+
 public class Program
 {
     public static void Main() 
     {
         Solution solution = new Solution();
-        int n = 13; // Example input
+        int n = 13; 
         int trailingZeroes = solution.TrailingZeroes(n);
         Console.WriteLine($"Number of trailing zeroes in {n}! is {trailingZeroes}");
     }
